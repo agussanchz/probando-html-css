@@ -3,11 +3,13 @@
     padding: 0; 
 }
 
+/* ESTILO DEL HEADER */
 .header {
     background-color: #3B2D9B; 
     opacity: 0.9; 
     height: 970px;
 }
+
 .nav {
     display: flex;
     justify-content: center;
@@ -56,6 +58,7 @@
     color: aliceblue;
 }
 
+/* SECTION CARDS */
 .section-cards {
     padding-top: 40px;
 }
@@ -78,6 +81,52 @@
     transform: scale(1.1);
 }
 
+/* SECTION ABOUT */
+
+.section-about{
+    background-color: #3B2D9B; 
+    opacity: 0.9; 
+    color: aliceblue;
+}
+
+.section-about .parrafo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* FOOTER */
+
+.footer{
+    background-color: #3B2D9B; 
+    opacity: 0.9; 
+    padding-top: 70px;
+}
+
+.title-footer p {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.phone-footer a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.mail-footer a {
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* RESPONSIVE */
 @media screen and (max-width: 650px)
 {
     .img-header img {
@@ -99,6 +148,11 @@
     .col {
         padding: 3px;
     }
+
+    .section-about .parrafo {
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width: 400px)
