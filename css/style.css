@@ -6,7 +6,6 @@
 /* ESTILO DEL HEADER */
 .header {
     background-color: #3B2D9B; 
-    opacity: 0.9; 
     height: 970px;
 }
 
@@ -85,7 +84,6 @@
 
 .section-about{
     background-color: #3B2D9B; 
-    opacity: 0.9; 
     color: aliceblue;
 }
 
@@ -100,7 +98,6 @@
 
 .footer{
     background-color: #3B2D9B; 
-    opacity: 0.9; 
     padding-top: 70px;
 }
 
@@ -124,11 +121,25 @@
     justify-content: center;
 }
 
+.logo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-footer {
+    display: flex;
+    justify-content: center;
+}
 
 
 /* RESPONSIVE */
+
+/* TAMAÑO DE 650 HACIA ABAJO */
 @media screen and (max-width: 650px)
 {
+    .header {
+        height: 855px;
+    }
     .img-header img {
         width: 420px;
         height: 420px;
@@ -155,6 +166,8 @@
 
 }
 
+
+/* TAMAÑO DE 400 HACIA ABAJO */
 @media screen and (max-width: 400px)
 {
     .card {
