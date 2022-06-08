@@ -81,12 +81,13 @@
 @media screen and (max-width: 650px)
 {
     .img-header img {
-        width: 100%;
-        height: auto;
+        width: 420px;
+        height: 420px;
     }
 
     .nav_li a {
         color: aliceblue;
+        font-size: 20px;
     }
 
     .card {
@@ -100,7 +101,13 @@
     }
 }
 
-
+@media screen and (max-width: 400px)
+{
+    .card {
+        width: 10rem;
+        height: 30;
+    }
+}
 
 
 
